@@ -1,11 +1,23 @@
 {
     "orgName": "Dreamhouse",
     "edition": "Developer",
+<<<<<<< HEAD
     "features": ["Walkthroughs", "EnableSetPasswordInApi"],
+=======
+    "hasSampleData": "false",
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
     "settings": {
         "lightningExperienceSettings": {
             "enableS1DesktopEnabled": true
         },
+<<<<<<< HEAD
+=======
+        "securitySettings": {
+            "passwordPolicies": {
+                "enableSetPasswordInApi": true
+            }
+        },
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
         "mobileSettings": {
             "enableS1EncryptedStoragePref2": false
         }

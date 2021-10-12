@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
+<<<<<<< HEAD
         <itemInstances>
             <componentInstance>
                 <componentName>home:heroChart</componentName>
                 <identifier>home_heroChart</identifier>
             </componentInstance>
         </itemInstances>
+=======
+        <componentInstances>
+            <componentName>home:heroChart</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>latField</name>
+                <value>Location__Latitude__s</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>longField</name>
+                <value>Location__Longitude__s</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>titleField</name>
+                <value>Name</value>
+            </componentInstanceProperties>
+            <componentName>RecordMap</componentName>
+        </componentInstances>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
         <mode>Replace</mode>
         <name>top</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
+<<<<<<< HEAD
         <itemInstances>
             <componentInstance>
                 <componentName>home:eventContainer</componentName>
@@ -24,11 +46,20 @@
                 <identifier>home_recentRecordContainer</identifier>
             </componentInstance>
         </itemInstances>
+=======
+        <componentInstances>
+            <componentName>home:eventContainer</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentName>home:recentRecordContainer</componentName>
+        </componentInstances>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
         <mode>Replace</mode>
         <name>bottomLeft</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
+<<<<<<< HEAD
         <itemInstances>
             <componentInstance>
                 <componentName>runtime_sales_activities:todayTaskContainer</componentName>
@@ -51,17 +82,31 @@
                 <identifier>c_PictureGalleryCard1</identifier>
             </componentInstance>
         </itemInstances>
+=======
+        <componentInstances>
+            <componentName>runtime_sales_activities:todayTaskContainer</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentName>home:topDealsContainer</componentName>
+        </componentInstances>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
         <mode>Replace</mode>
         <name>bottomRight</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
+<<<<<<< HEAD
         <itemInstances>
             <componentInstance>
                 <componentName>home:assistant</componentName>
                 <identifier>home_assistant</identifier>
             </componentInstance>
         </itemInstances>
+=======
+        <componentInstances>
+            <componentName>home:assistant</componentName>
+        </componentInstances>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
         <mode>Replace</mode>
         <name>sidebar</name>
         <type>Region</type>

@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
     {
         "sobject": "Broker__c",
         "saveRefs": true,
@@ -14,4 +15,20 @@
         "resolveRefs": false,
         "files": ["contacts-data.json"]
     }
+=======
+  {
+    "sobject": "Broker__c",
+    "saveRefs": true,
+    "files": [
+      "brokers-data.json"
+    ]
+  },
+  {
+    "sobject": "Property__c",
+    "resolveRefs": true,
+    "files": [
+      "properties-data.json"
+    ]
+  }
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
 ]

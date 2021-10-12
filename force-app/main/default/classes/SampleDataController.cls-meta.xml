@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <ApexClass
     xmlns="urn:metadata.tooling.soap.sforce.com"
     fqn="SampleDataController"
 >
     <apiVersion>53.0</apiVersion>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexClass xmlns="urn:metadata.tooling.soap.sforce.com" fqn="SampleDataController">
+    <apiVersion>44.0</apiVersion>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
     <status>Active</status>
 </ApexClass>

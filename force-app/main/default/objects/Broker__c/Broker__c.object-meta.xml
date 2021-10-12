@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>Accept</actionName>
@@ -38,13 +42,24 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+<<<<<<< HEAD
         <type>Default</type>
+=======
+        <content>Broker_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>Broker_Compact</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
+<<<<<<< HEAD
+=======
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>true</enableReports>
@@ -57,7 +72,11 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Brokers</pluralLabel>
+<<<<<<< HEAD
     <searchLayouts />
+=======
+    <searchLayouts/>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

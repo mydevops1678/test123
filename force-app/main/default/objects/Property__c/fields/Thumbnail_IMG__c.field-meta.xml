@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Thumbnail_IMG__c</fullName>
     <externalId>false</externalId>
     <formula
     >if(ISBLANK(Thumbnail__c), "", IMAGE(Thumbnail__c, "Picture", 200, 200))</formula>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Thumbnail_IMG__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(ISBLANK(Thumbnail__c), "", IMAGE(Thumbnail__c, "Picture", 200, 200))</formula>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Main Thumbnail</label>
     <required>false</required>

@@ -27,4 +27,8 @@
         </aura:if>
     </lightning:card>
 
+<<<<<<< HEAD
 </aura:component>
+=======
+</aura:component>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7

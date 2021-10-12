@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
@@ -8,6 +12,7 @@
         <label>Information</label>
         <layoutColumns>
             <layoutItems>
+<<<<<<< HEAD
                 <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
@@ -18,6 +23,14 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>City__c</field>
+=======
+                <behavior>Edit</behavior>
+                <field>Title__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Address__c</field>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -25,6 +38,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+<<<<<<< HEAD
                 <field>Zip__c</field>
             </layoutItems>
             <layoutItems>
@@ -37,12 +51,21 @@
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
+=======
+                <field>Beds__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Price__c</field>
+            </layoutItems>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Status__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+<<<<<<< HEAD
                 <field>Beds__c</field>
             </layoutItems>
             <layoutItems>
@@ -94,6 +117,43 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Date_Pre_Market__c</field>
+=======
+                <field>Tags__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Price_Sold__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Predicted_Days_on_Market__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Asking_Price__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Name</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>City__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Zip__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Baths__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Assessed_Value__c</field>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -101,6 +161,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+<<<<<<< HEAD
                 <field>Date_Agreement__c</field>
             </layoutItems>
             <layoutItems>
@@ -110,6 +171,12 @@
         </layoutColumns>
         <layoutColumns />
         <style>TwoColumnsLeftToRight</style>
+=======
+                <field>Broker__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsTopToBottom</style>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
     </layoutSections>
     <layoutSections>
         <customLabel>true</customLabel>
@@ -118,6 +185,7 @@
         <label>Pictures</label>
         <layoutColumns>
             <layoutItems>
+<<<<<<< HEAD
                 <behavior>Edit</behavior>
                 <field>Picture__c</field>
             </layoutItems>
@@ -129,11 +197,19 @@
                 <behavior>Edit</behavior>
                 <field>Thumbnail__c</field>
             </layoutItems>
+=======
+                <behavior>Readonly</behavior>
+                <field>Picture_IMG__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Thumbnail_IMG__c</field>
             </layoutItems>
         </layoutColumns>
+<<<<<<< HEAD
         <style>OneColumn</style>
     </layoutSections>
     <layoutSections>
@@ -186,6 +262,95 @@
         <fields>CORE.USERS.FULL_NAME</fields>
         <fields>TASK.LAST_UPDATE</fields>
         <relatedList>RelatedHistoryList</relatedList>
+=======
+        <style>TwoColumnsTopToBottom</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>true</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Custom Links</label>
+        <layoutColumns/>
+        <layoutColumns/>
+        <layoutColumns/>
+        <style>CustomLinks</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>true</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Description</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Description__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>OneColumn</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>true</editHeading>
+        <label>System Information</label>
+        <layoutColumns/>
+        <layoutColumns/>
+        <style>TwoColumnsTopToBottom</style>
+    </layoutSections>
+    <platformActionList>
+        <actionListContext>Record</actionListContext>
+        <platformActionListItems>
+            <actionName>Property__c.Smart_Home</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>1</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Edit</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>10</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Share</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>11</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Delete</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>12</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>ChangeOwnerOne</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>13</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>ChangeRecordType</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>14</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Submit</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>15</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Clone</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>16</sortOrder>
+        </platformActionListItems>
+    </platformActionList>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>User__c</fields>
+        <fields>CREATED_DATE</fields>
+        <relatedList>Property_Favorite__c.Property__c</relatedList>
+        <sortField>CREATED_DATE</sortField>
+        <sortOrder>Desc</sortOrder>
+    </relatedLists>
+    <relatedLists>
+        <relatedList>RelatedFileList</relatedList>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
@@ -193,7 +358,11 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
+<<<<<<< HEAD
         <masterLabel>00h3D000000e68E</masterLabel>
+=======
+        <masterLabel>00hS0000000dWD3</masterLabel>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

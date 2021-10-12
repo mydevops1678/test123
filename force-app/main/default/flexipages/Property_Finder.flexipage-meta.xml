@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
@@ -7,20 +8,43 @@
                 <identifier>propertyFilter</identifier>
             </componentInstance>
         </itemInstances>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>einsteinVisionModelId</name>
+                <value>YQXUQ3NXBEW3MRF5BSJBIA7MSA</value>
+            </componentInstanceProperties>
+            <componentName>PropertyFilters</componentName>
+        </componentInstances>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
         <name>left</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
+<<<<<<< HEAD
         <itemInstances>
             <componentInstance>
                 <componentName>auraPropertyListMap</componentName>
                 <identifier>auraPropertyListMap</identifier>
             </componentInstance>
         </itemInstances>
+=======
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>pageSize</name>
+                <value>8</value>
+            </componentInstanceProperties>
+            <componentName>PropertyTileList</componentName>
+        </componentInstances>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
         <name>center</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
+<<<<<<< HEAD
         <itemInstances>
             <componentInstance>
                 <componentName>propertySummary</componentName>
@@ -33,12 +57,31 @@
                 <identifier>daysOnMarket</identifier>
             </componentInstance>
         </itemInstances>
+=======
+        <componentInstances>
+            <componentName>PropertySummary</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentName>PropertyDaysOnMarketChart</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>searchCriteria</name>
+                <value>Price</value>
+            </componentInstanceProperties>
+            <componentName>SimilarProperties</componentName>
+        </componentInstances>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
         <name>right</name>
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Property Finder</masterLabel>
     <template>
+<<<<<<< HEAD
         <name>pageTemplate_2_7_3</name>
+=======
+        <name>PageTemplate_2_6_4</name>
+>>>>>>> 47d15fe85b948ea7bf6d4f47f7edc7e55f9368c7
     </template>
     <type>AppPage</type>
 </FlexiPage>
