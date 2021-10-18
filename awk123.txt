@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ awk '/commit/ {print}' test123.txt
+ ##awk '/Merge/ {print}' test123.txt
+ awk '/Author/ {print}' test123.txt
+ awk '/Date/ {print}' test123.txt
+ Echo "helow world"
